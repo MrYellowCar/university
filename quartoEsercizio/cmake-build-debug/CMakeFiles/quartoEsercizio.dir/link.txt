@@ -1,0 +1,3 @@
+C:\Users\mario\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\quartoEsercizio.dir/objects.a
+C:\Programmi\MinGW\mingw64\bin\ar.exe cr CMakeFiles\quartoEsercizio.dir/objects.a @CMakeFiles\quartoEsercizio.dir\objects1.rsp
+C:\Programmi\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\quartoEsercizio.dir/objects.a -Wl,--no-whole-archive -o quartoEsercizio.exe -Wl,--out-implib,libquartoEsercizio.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\quartoEsercizio.dir\linklibs.rsp
