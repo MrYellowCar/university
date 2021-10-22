@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = J:\IDE\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\mario\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = J:\IDE\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\mario\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\GitHub\university\secondoEsercizio
+CMAKE_SOURCE_DIR = "C:\Scuola\Fondamenti di Informatica\university\secondoEsercizio"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\GitHub\university\secondoEsercizio\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Scuola\Fondamenti di Informatica\university\secondoEsercizio\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/secondoEsercizio.dir/clean
 CMakeFiles/secondoEsercizio.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\secondoEsercizio.dir\build.make CMakeFiles/secondoEsercizio.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\secondoEsercizio.dir\build.make CMakeFiles/secondoEsercizio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\GitHub\university\secondoEsercizio\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target secondoEsercizio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Scuola\Fondamenti di Informatica\university\secondoEsercizio\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target secondoEsercizio"
 .PHONY : CMakeFiles/secondoEsercizio.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/secondoEsercizio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\GitHub\university\secondoEsercizio\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Scuola\Fondamenti di Informatica\university\secondoEsercizio\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/secondoEsercizio.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\GitHub\university\secondoEsercizio\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Scuola\Fondamenti di Informatica\university\secondoEsercizio\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/secondoEsercizio.dir/rule
 
 # Convenience name for target.
