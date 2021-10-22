@@ -1,3 +1,6 @@
+/*Traccia:
+ * Stampare cinque stringhe.
+*/
 using namespace std;
 
 #include <iostream>

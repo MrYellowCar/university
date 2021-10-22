@@ -1,3 +1,6 @@
+/*Traccia:
+ * Far inserire all'utente un valore INT e poi stamparlo a video.
+*/
 using namespace std;
 
 #include <iostream>
@@ -5,9 +8,9 @@ using namespace std;
 int main() {
     int numero;
 
-    cout<<"Inserisci un numero: ";
-    cin>>numero;
-    cout<<"Il numero inserito "<<char(130)<<": "<<numero;
+    cout << "Inserisci un numero: ";
+    cin >> numero;
+    cout << "Il numero inserito " << char(130) << ": " << numero;
 
     return 0;
 }

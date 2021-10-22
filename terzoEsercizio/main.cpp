@@ -1,3 +1,6 @@
+/*Traccia:
+ * Far inserire all'utente due valori INT, successivamente invertire il contenuto delle variabili e stampare a video.
+*/
 using namespace std;
 
 #include <iostream>

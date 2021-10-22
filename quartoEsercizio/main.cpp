@@ -1,3 +1,7 @@
+/*Traccia:
+ * Far inserire all'utente due valori INT che successivamente devono essere confrontati per controllare se sono
+ * uguali oppure no. Stampare un messaggio di conferma in entrambi i casi.
+*/
 using namespace std;
 
 #include <iostream>
