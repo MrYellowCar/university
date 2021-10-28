@@ -1,3 +1,0 @@
-C:/Scuola/Fondamenti di Informatica/university/settimoEsercizio/cmake-build-debug/CMakeFiles/settimoEsercizio.dir
-C:/Scuola/Fondamenti di Informatica/university/settimoEsercizio/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Scuola/Fondamenti di Informatica/university/settimoEsercizio/cmake-build-debug/CMakeFiles/rebuild_cache.dir

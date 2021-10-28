@@ -1,3 +1,3 @@
-C:/Scuola/Fondamenti di Informatica/university/quartoEsercizio/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Scuola/Fondamenti di Informatica/university/quartoEsercizio/cmake-build-debug/CMakeFiles/quartoEsercizio.dir
-C:/Scuola/Fondamenti di Informatica/university/quartoEsercizio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+H:/GitHub/university/quartoEsercizio/cmake-build-debug/CMakeFiles/edit_cache.dir
+H:/GitHub/university/quartoEsercizio/cmake-build-debug/CMakeFiles/quartoEsercizio.dir
+H:/GitHub/university/quartoEsercizio/cmake-build-debug/CMakeFiles/rebuild_cache.dir

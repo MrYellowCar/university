@@ -1,4 +1,4 @@
-# Install script for directory: C:/Scuola/Fondamenti di Informatica/university/quintoEsercizio
+# Install script for directory: H:/GitHub/university/quintoEsercizio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Programmi/MinGW/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "H:/Programmi/MinGW/mingw64/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Scuola/Fondamenti di Informatica/university/quintoEsercizio/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "H:/GitHub/university/quintoEsercizio/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
