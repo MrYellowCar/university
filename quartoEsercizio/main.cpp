@@ -2,9 +2,9 @@
  * Far inserire all'utente due valori INT che successivamente devono essere confrontati per controllare se sono
  * uguali oppure no. Stampare un messaggio di conferma in entrambi i casi.
 */
-using namespace std;
-
 #include <iostream>
+
+using namespace std;
 
 int main() {
     int a, b;
@@ -13,6 +13,8 @@ int main() {
     do {
         cout << "Inserire il valore da verificare: ";
         cin >> a;
+
+        if (a.is)
 
         cout << "Inserire il valore che deve essere verificato: ";
         cin >> b;
@@ -25,6 +27,8 @@ int main() {
         do {
             cout << "Vuoi effettuare un nuovo confronto? (s = Si/n = No)" << endl << "Effettuare la scelta: ";
             cin >> scelta;
+
+            scelta = tolower(scelta);
 
             if (scelta != 's' && scelta != 'n')
                 cout << "Valore errato, reinserire!" << endl;
