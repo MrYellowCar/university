@@ -11,14 +11,14 @@ int main() {
     cout << "Scegliere il numero di voti da inserire: ";
     cin >> n;
 
-    for (int i = 0; i < n ; i++) {
-        do{
+    for (int i = 0; i < n; i++) {
+        do {
             cout << "Inserire il voto: ";
             cin >> voto;
 
             if (voto <= 0 || voto > 30)
                 cout << "Errore: valore non valido.\n";
-        }while (voto <= 0 || voto > 30);
+        } while (voto <= 0 || voto > 30);
 
         if (voto < min)
             min = voto;
