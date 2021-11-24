@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    int n, i, valore;
+    int n, valore;
     bool trovato = false;
 
     cout << "Quanti valori devono essere caricati all'interno del vettore?\nDigitare la risposta: ";
@@ -17,7 +17,7 @@ int main() {
         vettore[i] = rand();
     }
 
-    i = 0;
+    int i = 0;
 
     cout << "Inserire il valore da ricercare: ";
     cin >> valore;

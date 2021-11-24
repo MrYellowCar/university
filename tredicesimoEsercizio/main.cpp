@@ -7,6 +7,7 @@ using namespace std;
 
 int main() {
     int n;
+    string variabile;
 
     do {
         cout << "Inserire la grandezza del vettore: ";
