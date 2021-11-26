@@ -7,11 +7,21 @@ using namespace std;
 int main() {
     int righe, colonne, swapUno, swapDue;
 
-    cout << "Inserire il numero di righe: ";
-    cin >> righe;
+    do{
+        cout << "Inserire il numero di righe: ";
+        cin >> righe;
 
-    cout << "Inserire il numero di colonne: ";
-    cin >> colonne;
+        if (righe < 1)
+            cout << "Errore. Valore non valido, reinserire.\n";
+    } while (righe < 1);
+
+    do{
+        cout << "Inserire il numero di colonne: ";
+        cin >> colonne;
+
+        if (colonne < 1)
+            cout << "Errore. Valore non valido, reinserire.\n";
+    } while (colonne < 1);
 
     int mat[righe][colonne];
 
@@ -30,20 +40,23 @@ int main() {
     }
 
     do {
-        cout << "Dimmi le due righe di cui invertiresti i valori.\nRiga uno: ";
+        cout << "Dimmi le due righe di cui vorresti invertire i valori.\nRiga uno: ";
         cin >> swapUno;
 
-        if (swapUno < righe || swapUno > righe)
+        if (swapUno < 1 || swapUno > righe)
             cout << "Errore. Valore non valido, reinserire.\n";
-    } while (swapUno < righe || swapUno > righe);
+    } while (swapUno < 1 || swapUno > righe);
 
     do {
         cout << "Riga due: ";
         cin >> swapDue;
 
-        if (swapDue < righe || swapDue > righe)
+        if (swapDue < 1 || swapDue > righe)
             cout << "Errore. Valore non valido, reinserire.\n";
-    } while (swapDue < righe || swapDue > righe);
+    } while (swapDue < 1 || swapDue > righe);
+
+    swapUno--;
+    swapDue--;
 
     for (int j = 0; j < colonne; j++)
         swap(mat[swapUno][j], mat[swapDue][j]);

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "H:/GitHub/university/swapMatrice/main.cpp" "H:/GitHub/university/swapMatrice/cmake-build-debug/CMakeFiles/swapMatrice.dir/main.cpp.obj"
+  "C:/Scuola/Fondamenti di Informatica/university/swapMatrice/main.cpp" "C:/Scuola/Fondamenti di Informatica/university/swapMatrice/cmake-build-debug/CMakeFiles/swapMatrice.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
