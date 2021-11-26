@@ -5,8 +5,13 @@ using namespace std;
 int main() {
     int numero, i = 0, conversione[100];
 
-    cout << "Dammi il numero in base 10 da convertire: ";
-    cin >> numero;
+    do {
+        cout << "Dammi il numero in base 10 da convertire: ";
+        cin >> numero;
+
+        if (numero < 1)
+            cout << "Errore. Reinsierire il valore.\n";
+    } while (numero < 1);
 
     while (numero != 0) {
         conversione[i] = numero % 2;

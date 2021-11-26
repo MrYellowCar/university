@@ -1,0 +1,3 @@
+C:/Scuola/Fondamenti di Informatica/university/quindicesimoEsercizio/cmake-build-debug/CMakeFiles/quindicesimoEsercizio.dir
+C:/Scuola/Fondamenti di Informatica/university/quindicesimoEsercizio/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Scuola/Fondamenti di Informatica/university/quindicesimoEsercizio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
