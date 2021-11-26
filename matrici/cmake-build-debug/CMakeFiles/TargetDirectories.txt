@@ -1,0 +1,3 @@
+H:/GitHub/university/matrici/cmake-build-debug/CMakeFiles/matrici.dir
+H:/GitHub/university/matrici/cmake-build-debug/CMakeFiles/edit_cache.dir
+H:/GitHub/university/matrici/cmake-build-debug/CMakeFiles/rebuild_cache.dir

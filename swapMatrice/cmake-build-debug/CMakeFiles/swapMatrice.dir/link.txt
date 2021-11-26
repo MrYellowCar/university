@@ -1,0 +1,3 @@
+"J:\IDE\CLion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\swapMatrice.dir/objects.a
+H:\Programmi\MinGW\mingw64\bin\ar.exe cr CMakeFiles\swapMatrice.dir/objects.a @CMakeFiles\swapMatrice.dir\objects1.rsp
+H:\Programmi\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\swapMatrice.dir/objects.a -Wl,--no-whole-archive -o swapMatrice.exe -Wl,--out-implib,libswapMatrice.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\swapMatrice.dir\linklibs.rsp

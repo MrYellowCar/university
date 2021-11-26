@@ -1,0 +1,3 @@
+"J:\IDE\CLion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sommaMatrici.dir/objects.a
+H:\Programmi\MinGW\mingw64\bin\ar.exe cr CMakeFiles\sommaMatrici.dir/objects.a @CMakeFiles\sommaMatrici.dir\objects1.rsp
+H:\Programmi\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\sommaMatrici.dir/objects.a -Wl,--no-whole-archive -o sommaMatrici.exe -Wl,--out-implib,libsommaMatrici.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sommaMatrici.dir\linklibs.rsp
